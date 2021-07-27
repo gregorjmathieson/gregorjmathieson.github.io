@@ -1,0 +1,94 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background:lightgray;
+  }
+
+  /* Blurb */
+.blurb {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background: whitesmoke;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {
+    float: left;
+    width: 74%;
+  }
+
+.subsection {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutme {
+    display: flex;
+    max-height: 400px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.boxed {
+    border: 1px solid green;
+}
+
+.blogbuttons {
+    text-align: center;
+}
+
+
+ul {
+      display:flex;
+      text-align: center;
+      padding: 0;
+  }
+
+li {
+    list-style-type: none;
+  }
+
+.flag {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+@media (max-aspect-ratio: 1/1) {
+    ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    flag {
+        width: 100%;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .blurb {
+        font-size: 15px;
+    }
+}
