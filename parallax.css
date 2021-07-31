@@ -1,0 +1,98 @@
+/* I CAN ADD THIS TO STYLE SHEET EVENTUALLY */
+
+.parallax {
+  /* The image used */
+  background-color: crimson;
+
+  /* Set a specific height */
+  min-height: 1500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax.chinese1{
+  background-image: url("IMAGES/ChinaPhotos/shanghai.jpg");
+}
+
+.parallax.chinese2{
+  background-image: url("IMAGES/ChinaPhotos/buddhahall.jpg");
+  min-height: 1000px;
+}
+
+.parallax.chinese3{
+  background-image: url("IMAGES/ChinaPhotos/bamboo.jpg");
+  min-height: 1300px;
+}
+
+.parallax.chinese4{
+  background-image: url("IMAGES/ChinaPhotos/buddhamountain.jpg");
+  min-height: 700px; /*this photo could be used with being moved down a bit */
+}
+
+.parallax.spanish1{
+  background-image: url("IMAGES/SpainPhotos/cathedral.jpg");
+}
+
+.parallax.spanish2{
+  background-image: url("IMAGES/SpainPhotos/toledo.jpg");
+}
+
+.parallax.spanish3{
+  background-image: url("IMAGES/SpainPhotos/realpalacio.jpg");
+}
+
+.parallax.spanish4{
+  background-image: url("IMAGES/SpainPhotos/windmill.jpg");
+}
+
+.parallax.french1{
+  background-image: url("IMAGES/FrancePhotos/arcdetriumph.jpg");
+}
+
+.parallax.french2{
+  background-image: url("IMAGES/FrancePhotos/tourdeiffel.jpg");
+}
+
+.parallax.french3{
+  background-image: url("IMAGES/FrancePhotos/notredame.jpg");
+}
+
+.parallax.french4{
+  background-image: url("IMAGES/FrancePhotos/versailles.jpg");
+}
+
+.parallax.japanese1{
+  background-image: url("IMAGES/JapanPhotos/wing.jpg");
+}
+
+.parallax.japanese2{
+  background-image: url("IMAGES/JapanPhotos/window.jpg");
+}
+
+.parallax.japanese3{
+  background-image: url("IMAGES/JapanPhotos/delta.jpg");
+}
+
+.parallax.japanese4{
+  background-image: url("IMAGES/JapanPhotos/clouds.jpg");
+}
+
+.parallax.index1 {
+  background-image: url("IMAGES/Homepage/caltonhill.jpg");
+}
+
+.parallax.index2 {
+  background-image: url("IMAGES/Homepage/ridge.jpg");
+}
+
+.parallax.index3 {
+  background-image: url("IMAGES/Homepage/edinburgh.jpg");
+}
+
+.parallax.index4 {
+  background-image: url("IMAGES/Homepage/mountain.jpg");
+}
